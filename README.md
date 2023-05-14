@@ -45,7 +45,7 @@ The code formatting rules are similar to those of Python (as you will see later 
   - [Section 6: For loops and advanced set/list building](#section-6-for-loops-and-advanced-setlist-building)
     - [6.1 - For loops](#61---for-loops)
     - [6.2 - The membership operator and for loops](#62---the-membership-operator-and-for-loops)
-    - [6.3 - The membership operator in boolean logic](#63---the-membership-operator-in-boolean-logic)
+    - [6.3 - The membership operator in Boolean logic](#63---the-membership-operator-in-boolean-logic)
     - [6.4 - The membership operator in set/list builder notation](#64---the-membership-operator-in-setlist-builder-notation)
     - [6.5 - The subsets operator in set/list builder notation](#65---the-subsets-operator-in-setlist-builder-notation)
     - [6.6 - The sublists operator in list builder notation](#66---the-sublists-operator-in-list-builder-notation)
@@ -175,7 +175,7 @@ I
 <br>
 
 ### 1.7 - The "Hello World!" program
-We can use string concatentation to create a "Hello World!" program as follows:
+We can use string concatenation to create a "Hello World!" program as follows:
 ```
 69420
 1337(~72 + ~101 + ~108 + ~108 + ~111 + ~32 + ~87 + ~111 + ~114 + ~108 + ~100 + ~33)
@@ -198,11 +198,11 @@ We can take input from the console with the `6969` function from the standard li
 <br>
 
 ## Section 2: Mathematical operations
-69420 supports many mathethematical operations including the following:  <br>
+69420 supports many mathematical operations including the following:  <br>
 Addition (`+`) e.g. `3 + 2` gives `5`  <br>
 Subtraction (`-`) e.g. `3 - 2` gives `1`  <br>
 Division (`/`) e.g. `3 / 2` gives `1.5`  <br>
-Integer divison (`//`) e.g. `3 // 2` gives `1` <br>
+Integer division (`//`) e.g. `3 // 2` gives `1` <br>
 Moduli (`%`) e.g. `5 % 2` gives `1` <br>
 Exponent (`**`) e.g. `2 ** 3` gives `8` <br>
 Bitwise AND (`&`) e.g. `8 * 9` gives `8` <br>
@@ -345,7 +345,7 @@ This is because the value of `2` is set in the runtime binding before the value 
 <br>
 <br>
 ### 3.1 - Runtime bindings with return type
-if a runtime binding has an evaluatable value then it will be replaced with that value at runtime. For example
+if a runtime binding has an evaluable value then it will be replaced with that value at runtime. For example
 
 ```
 2 = 4
@@ -445,7 +445,7 @@ There are many bindings from the standard library which allows us to write condi
 ### 4.1 - Boolean operations
 69420 uses `61!` to represent `True`, `60!` to represent `False`, and `404` to represent `None`<br>
 <br>
-69420 also supports the following boolean operations:  <br>
+69420 also supports the following Boolean operations:  <br>
 And (`&&` or `11!`) e.g. `61! 11! 60!` and `60! && 60!` is `False`  <br>
 Or (`||` or `10!`) e.g. `61! 10! 60!` and `61! || 61!` is `True` <br>
 Not (`¬` or `0!`) e.g. `¬60!` and `0! 60!` is `True` <br>
@@ -798,8 +798,8 @@ or with alternative syntax
 
 <br>
 
-### 6.3 - The membership operator in boolean logic
-We can use the membership operator(s) in boolean logic for example
+### 6.3 - The membership operator in Boolean logic
+We can use the membership operator(s) in Boolean logic for example
 
 ```
 1! 3 £ [1, 2, 3]:
@@ -814,7 +814,7 @@ will output `!` if `3` is in the list `[1, 2, 3]`
 ### 6.4 - The membership operator in set/list builder notation
 In 69420, builder notation with the membership operator is of the form `{f(x) :|: x £ set => p(x)}` which basically means: <br>
 
-For every element in the set (or list), check it against some predicate (boolean expression), and if it holds then x (or some mapping of x) will appear in the new set or list. <br>
+For every element in the set (or list), check it against some predicate (Boolean expression), and if it holds then x (or some mapping of x) will appear in the new set or list. <br>
 
 Here's an example of a set being constructed from the set `{1...19}` where every element is even:
 
