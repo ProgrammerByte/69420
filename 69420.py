@@ -20,20 +20,24 @@ def sub_lists(l, largest=None, smallest=None):
     return lists
 
 def subsequences(l, largest=None, smallest=None): 
-    def subsequences_helper(ind,ans,l,n):
+    def subsequences_helper(ind,ans,l):
         final_ans = []
-        if ind == n:
+        if len(ans) > largest:
+            return None
+        if ind == len(l):
             return [ans]
         else:
-            final_ans.extend(subsequences_helper(ind+1,ans + [l[ind]],l,n))
-            final_ans.extend(subsequences_helper(ind+1,ans,l,n))
+            seq = subsequences_helper(ind+1,ans + [l[ind]],l)
+            if seq is not None:
+                final_ans.extend(seq)
+            final_ans.extend(subsequences_helper(ind+1,ans,l))
             return final_ans
     if largest is None:
         largest = len(l)
     if smallest is None:
         smallest = 0
     l = list(l)
-    return list(filter(lambda x: len(x) >= smallest, subsequences_helper(0, [], l, largest)))
+    return list(filter(lambda x: len(x) >= smallest, subsequences_helper(0, [], l)))
 
 def absolute(n):
     if isinstance(n, int):
@@ -110,8 +114,11 @@ for h in re.findall(r'\[ *-? *\d+!? *, *-? *\d+!? *\.\.\. *-? *\d+!? *\]', progr
     program = program.replace(h, "list(range(" + first + ", " + last + getoffset(last) + ", " + diff + " - " + first + "))")
 
 if program.strip().split('\n')[0].strip() == "69420":
-    standard_library = open("standard_library.69420", "rb").read().decode("utf-8")
-    program = standard_library + program
+    try:
+        standard_library = open("standard_library.69420", "rb").read().decode("utf-8")
+        program = standard_library + program
+    except:
+        raise Exception("69420 standard library failed to load")
 
 nums = sorted([int(i) for i in set(re.findall(r'\d+', program))])
 nums.reverse()
