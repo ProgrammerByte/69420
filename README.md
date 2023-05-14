@@ -1,5 +1,5 @@
 # Welcome to the world of 69420
-An esolang with mutable numbers. To use this transpiler run the following command in an adequate command prompt:
+An esolang with mutable numbers. To use this compiler run the following command in an adequate command prompt:
 ```
 py 69420.py name_of_file.69420
 ```
@@ -141,7 +141,7 @@ The reason why is because...
 <br>
 
 ### 1.5 - Comments
-All upper and lowercase letters are ignored by the 69420 transpiler for example the following program has perfectly valid syntax:
+All upper and lowercase letters are ignored by the 69420 compiler for example the following program has perfectly valid syntax:
 ```
 69420 imports standard library
 1 trivially = 2 by inspection
