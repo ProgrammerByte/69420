@@ -11,7 +11,7 @@ The code formatting rules are similar to those of Python (as you will see later 
 <br>
 
 ## Table of Contents
-  - [Section 1: Creating a program with input and output](#section-1-creating-a-program-with-input-and-output)
+  - [Section 1 - Creating a program with input and output](#section-1---creating-a-program-with-input-and-output)
     - [1.1 - The standard library](#11---the-standard-library)
     - [1.2 - Printing to the console](#12---printing-to-the-console)
     - [1.3 - Numbers as other numbers](#13---numbers-as-other-numbers)
@@ -20,36 +20,36 @@ The code formatting rules are similar to those of Python (as you will see later 
     - [1.6 - Outputting characters](#16---outputting-characters)
     - [1.7 - The "Hello World!" program](#17---the-hello-world-program)
     - [1.8 - The "cat" program](#18---the-cat-program)
-  - [Section 2: Mathematical operations](#section-2-mathematical-operations)
+  - [Section 2 - Mathematical operations](#section-2---mathematical-operations)
     - [2.1 - The absolute function](#21---the-absolute-function)
     - [2.2 - The factorial function](#22---the-factorial-function)
     - [2.3 - The derrangements function](#23---the-derrangements-function)
-  - [Section 3: Runtime bindings](#section-3-runtime-bindings)
+  - [Section 3 - Runtime bindings](#section-3---runtime-bindings)
     - [3.1 - Runtime bindings with return type](#31---runtime-bindings-with-return-type)
     - [3.2 - Using runtime bindings to construct keywords](#32---using-runtime-bindings-to-construct-keywords)
     - [3.3 - Immediate bindings](#33---immediate-bindings)
-  - [Section 4: Conditional code blocks](#section-4-conditional-code-blocks)
+  - [Section 4 - Conditional code blocks](#section-4---conditional-code-blocks)
     - [4.1 - Boolean operations](#41---boolean-operations)
     - [4.2 - If, else if, and else](#42---if-else-if-and-else)
     - [4.3 - While loops](#43---while-loops)
-  - [Section 5: List and set operations](#section-5-list-and-set-operations)
+  - [Section 5 - List and set operations](#section-5---list-and-set-operations)
     - [5.1 - Adding an item to a list or a set](#51---adding-an-item-to-a-list-or-a-set)
     - [5.2 - Subtracting one set from another](#52---subtracting-one-set-from-another)
     - [5.3 - Sorting a list](#53---sorting-a-list)
-    - [5.4 Sum of elements in list or set](#54-sum-of-elements-in-list-or-set)
+    - [5.4 - Sum of elements in list or set](#54---sum-of-elements-in-list-or-set)
     - [5.5 - Converting a list to a set](#55---converting-a-list-to-a-set)
     - [5.6 - Converting a set to a list](#56---converting-a-set-to-a-list)
     - [5.7 - Getting the maximum element from a list or set](#57---getting-the-maximum-element-from-a-list-or-set)
     - [5.8 - Getting the minimum element from a list or set](#58---getting-the-minimum-element-from-a-list-or-set)
     - [5.9 - Creating lists or sets in shorthand form with ellipsis](#59---creating-lists-or-sets-in-shorthand-form-with-ellipsis)
-  - [Section 6: For loops and advanced set/list building](#section-6-for-loops-and-advanced-setlist-building)
+  - [Section 6 - For loops and advanced set/list building](#section-6---for-loops-and-advanced-setlist-building)
     - [6.1 - For loops](#61---for-loops)
     - [6.2 - The membership operator and for loops](#62---the-membership-operator-and-for-loops)
     - [6.3 - The membership operator in Boolean logic](#63---the-membership-operator-in-boolean-logic)
     - [6.4 - The membership operator in set/list builder notation](#64---the-membership-operator-in-setlist-builder-notation)
     - [6.5 - The subsets operator in set/list builder notation](#65---the-subsets-operator-in-setlist-builder-notation)
     - [6.6 - The sublists operator in list builder notation](#66---the-sublists-operator-in-list-builder-notation)
-  - [Section 7: Methods, classes, and exception handling](#section-7-methods-classes-and-exception-handling)
+  - [Section 7 - Methods, classes, and exception handling](#section-7---methods-classes-and-exception-handling)
     - [7.1 - Defining methods](#71---defining-methods)
     - [7.2 - Exception handling](#72---exception-handling)
     - [7.3 - Defining classes and instantiating objects](#73---defining-classes-and-instantiating-objects)
@@ -59,11 +59,11 @@ The code formatting rules are similar to those of Python (as you will see later 
     - [8.1 - Dictionaries](#81---dictionaries)
     - [8.2 - Exiting a program](#82---exiting-a-program)
     - [8.3 - Compatibility with Python packages](#83---compatibility-with-python-packages)
-  - [Section 9: Examples](#section-9-examples)
+  - [Section 9 - Examples](#section-9---examples)
     - [9.1 - Calculating the area of a circle](#91---calculating-the-area-of-a-circle)
     - [9.2 - FizzBuzz](#92---fizzbuzz)
 
-## Section 1: Creating a program with input and output
+## Section 1 - Creating a program with input and output
 In this section we will cover some of the basics of 69420 to cover what you need to create a simple hello world program.
 
 ### 1.1 - The standard library
@@ -197,7 +197,7 @@ We can take input from the console with the `6969` function from the standard li
 <br>
 <br>
 
-## Section 2: Mathematical operations
+## Section 2 - Mathematical operations
 69420 supports many mathematical operations including the following:  <br>
 Addition (`+`) e.g. `3 + 2` gives `5`  <br>
 Subtraction (`-`) e.g. `3 - 2` gives `1`  <br>
@@ -326,7 +326,7 @@ returns
 
 <br>
 
-## Section 3: Runtime bindings
+## Section 3 - Runtime bindings
 Runtime bindings (denoted by the opening tag `[<` and closing tag `>]`) are useful for arbitrarily defining numbers before the contents of the rest of the program executes. <br><br>
 For example
 
@@ -439,7 +439,7 @@ outputs
 
 <br>
 
-## Section 4: Conditional code blocks
+## Section 4 - Conditional code blocks
 There are many bindings from the standard library which allows us to write conditional code blocks as you will observe throughout this section.
 
 ### 4.1 - Boolean operations
@@ -532,7 +532,7 @@ outputs
 
 <br>
 
-## Section 5: List and set operations
+## Section 5 - List and set operations
 There are many list and set operations in 69420 as this section will cover.
 
 ### 5.1 - Adding an item to a list or a set
@@ -584,7 +584,7 @@ outputs
 
 <br>
 
-### 5.4 Sum of elements in list or set
+### 5.4 - Sum of elements in list or set
 We can get the sum of elements in a list or set with the `13610` function from the standard library for example
 
 ```
@@ -714,7 +714,7 @@ creates the set
 
 <br>
 
-## Section 6: For loops and advanced set/list building
+## Section 6 - For loops and advanced set/list building
 Similar to standard Python, 69420 supports set, list, and dictionary comprehension. This section will explore how this can be used in a 69420 program.
 
 ### 6.1 - For loops
@@ -936,7 +936,7 @@ Likewise, we can use predicate logic, max, and min lengths of sublists to alter 
 <br>
 <br>
 
-## Section 7: Methods, classes, and exception handling
+## Section 7 - Methods, classes, and exception handling
 
 ### 7.1 - Defining methods
 In 69420 methods can be defined with `420!`, with `200!` being used for return values and `400!` being used for exceptions. The following code block defines a method titled `141` which divides one number by another number, however if the divisor is `0` then an exception is raised:
@@ -1082,7 +1082,7 @@ In the following program we import the `math` package and call `math.sin(1)`:
 
 <br>
 
-## Section 9: Examples
+## Section 9 - Examples
 Here are some example programs written in 69420.
 
 ### 9.1 - Calculating the area of a circle
